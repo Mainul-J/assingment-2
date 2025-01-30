@@ -212,7 +212,6 @@ a{
     background-image: url(../assets/bg.png), linear-gradient(to  top , rgba(245, 60, 60, 0.377), rgba(250, 166, 9, 0.329));;
 }
 .story-container{
-    border: 10px solid green;
     padding: 1rem;
 }
 .story-card{
@@ -223,8 +222,8 @@ a{
 .column-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: #64C8FF;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .story-card>img{
@@ -236,7 +235,7 @@ a{
 .row{
     grid-row: span 3;
     background-color: rgb(253, 253, 253);
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 1rem 1rem;
 }
 .row>img{
     width: 100%;
@@ -247,8 +246,7 @@ a{
     border-radius: 1.5rem 1.5rem 0 0;
 }
 .column{
-    border: 2px solid yellow;
-    border-radius: 0 0 1.5rem 1.5rem;
+    border-radius: 1.5rem 1.5rem;
     background-color: white;
 }
 .column-description, .column-title{
@@ -275,11 +273,14 @@ a{
     margin: 2.5rem 0;
 }
  /* btn */
-
+ #btn-date-1:hover{
+    background-color: rgb(5, 70, 5);
+    color: rgb(241, 8, 8);
+ }
  #btn-date-1{
     background-color: rgba(60, 216, 232, 1);
     position: relative;
-    top: -15.225rem;
+    top: -18.225rem;
     left: 20px;
     padding: 16px 25px;
     border-radius: 47px;
@@ -288,10 +289,14 @@ a{
     border: none;
     color: rgba(255, 255, 255, 0.712);
  }
+ #btn-date-2:hover{
+    background-color: rgb(5, 70, 5);
+    color: rgb(241, 8, 8);
+ }
  #btn-date-2{
     background-color: rgba(60, 232, 152, 0.863);
     position: relative;
-    top: -6rem;
+    top: -12.9rem;
     left: 20px;
     padding: 16px 25px;
     border-radius: 47px;
@@ -299,11 +304,15 @@ a{
     font-weight:500;
     color: white;
     border: none;
+ }
+ #btn-date-3:hover{
+    background-color: #64C8FF;
+    color: rgb(83, 11, 11);
  }
  #btn-date-3{
     background-color: rgba(232, 129, 60, 0.925);
     position: relative;
-    top: -6rem;
+    top: -12.5rem;
     left: 20px;
     padding: 16px 25px;
     border-radius: 47px;
@@ -311,11 +320,15 @@ a{
     font-weight:500;
     color: white;
     border: none;
+ }
+ #btn-date-4:hover{
+    color: sandybrown;
+    background-color: slateblue;
  }
  #btn-date-4{
     background-color: rgba(2, 90, 100, 0.966);
     position: relative;
-    top: -6.225rem;
+    top: -12.5rem;
     left: 20px;
     padding: 16px 25px;
     border-radius: 47px;
@@ -324,10 +337,14 @@ a{
     color: white;
     border: none;
  }
+ #btn-date-5:hover{background-color: tomato;
+    color: rgb(255, 255, 255);
+
+ }
  #btn-date-5{
     background-color: rgba(47, 8, 218, 0.863);
     position: relative;
-    top: -6.225rem;
+    top: -12.49rem;
     left: 20px;
     padding: 16px 25px;
     border-radius: 47px;
@@ -410,9 +427,17 @@ a{
     .column-card{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .our-stories{
+        margin:  0;
+        padding: 0;
+    }
     .footer-container{
         flex-direction: column;
         padding: 1rem;
+    }
+    .column-card{
+       flex-direction: column;
     }
     .footer-text-card{
         width: 100%;
