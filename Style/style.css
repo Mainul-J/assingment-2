@@ -204,9 +204,7 @@ a{
 /* our-stories */
 
 .our-stories{
-    border: 2px solid blue; 
     margin-top: 20px;
-    
     background-image: linear-gradient(to  top , rgba(245, 60, 60, 0.377), rgba(250, 166, 9, 0.329));
     padding: 1.6rem;
     background-image: url(../assets/bg.png), linear-gradient(to  top , rgba(245, 60, 60, 0.377), rgba(250, 166, 9, 0.329));;
@@ -425,7 +423,8 @@ a{
         flex-direction: column;
     }
     .column-card{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 0;
     }
 
     .our-stories{
@@ -437,7 +436,9 @@ a{
         padding: 1rem;
     }
     .column-card{
-       flex-direction: column;
+    }
+    .our-r{
+        padding: 1.3rem .8rem;
     }
     .footer-text-card{
         width: 100%;
@@ -449,4 +450,52 @@ a{
     .keep{
         padding: 1rem;
     }
+    #btn-date-5{
+        background-color: rgba(47, 8, 218, 0.863);
+        position: relative;
+        top: -14.49rem;
+        left: 20px;
+        padding: 16px 25px;
+        border-radius: 47px;
+        font-size: 1rem;
+        font-weight:500;
+        color: white;
+        border: none;
+     }
+    #btn-date-4{
+        background-color: rgba(47, 8, 218, 0.863);
+        position: relative;
+        top: -16.49rem;
+        left: 20px;
+        padding: 16px 25px;
+        border-radius: 47px;
+        font-size: 1rem;
+        font-weight:500;
+        color: white;
+        border: none;
+     }
+    #btn-date-3{
+        background-color: rgba(47, 8, 218, 0.863);
+        position: relative;
+        top: -14.49rem;
+        left: 20px;
+        padding: 16px 25px;
+        border-radius: 47px;
+        font-size: 1rem;
+        font-weight:500;
+        color: white;
+        border: none;
+     }
+    #btn-date-2{
+        background-color: rgba(47, 8, 218, 0.863);
+        position: relative;
+        top: -14.49rem;
+        left: 20px;
+        padding: 16px 25px;
+        border-radius: 47px;
+        font-size: 1rem;
+        font-weight:500;
+        color: white;
+        border: none;
+     }
  }
