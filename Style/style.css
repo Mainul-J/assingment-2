@@ -424,9 +424,16 @@ a{
     }
     .column-card{
         grid-template-columns: repeat(2, 1fr);
-        padding: 10px 0;
+        padding: 10px 10px;
+        max-width:  350px;
     }
-
+    .column{
+        max-width: 100%;
+    }
+    .column-title{
+        margin: 2px;
+        padding: 5px;
+    }
     .our-stories{
         margin:  0;
         padding: 0;
@@ -434,8 +441,6 @@ a{
     .footer-container{
         flex-direction: column;
         padding: 1rem;
-    }
-    .column-card{
     }
     .our-r{
         padding: 1.3rem .8rem;
@@ -451,9 +456,9 @@ a{
         padding: 1rem;
     }
     #btn-date-5{
-        background-color: rgba(47, 8, 218, 0.863);
+        background-color: rgba(8, 187, 218, 0.863);
         position: relative;
-        top: -14.49rem;
+        top: -10rem;
         left: 20px;
         padding: 16px 25px;
         border-radius: 47px;
@@ -463,9 +468,9 @@ a{
         border: none;
      }
     #btn-date-4{
-        background-color: rgba(47, 8, 218, 0.863);
+        background-color: rgba(21, 92, 44, 0.863);
         position: relative;
-        top: -16.49rem;
+        top: -12rem;
         left: 20px;
         padding: 16px 25px;
         border-radius: 47px;
@@ -475,9 +480,9 @@ a{
         border: none;
      }
     #btn-date-3{
-        background-color: rgba(47, 8, 218, 0.863);
+        background-color: rgba(218, 103, 8, 0.863);
         position: relative;
-        top: -14.49rem;
+        top: -12rem;
         left: 20px;
         padding: 16px 25px;
         border-radius: 47px;
@@ -487,9 +492,9 @@ a{
         border: none;
      }
     #btn-date-2{
-        background-color: rgba(47, 8, 218, 0.863);
+        background-color: rgba(218, 8, 138, 0.863);
         position: relative;
-        top: -14.49rem;
+        top: -10.4rem;
         left: 20px;
         padding: 16px 25px;
         border-radius: 47px;
