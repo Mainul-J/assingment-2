@@ -362,7 +362,7 @@ a{
     display: flex;
     justify-content:space-between;
     align-items: self-start;
-    padding: 6.5rem 13.5rem;
+    padding: 1.5rem 1.5rem;
     color: rgb(255, 255, 255);
  }
  .footer-text-card{
