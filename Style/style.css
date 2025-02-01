@@ -7,9 +7,14 @@
     font-weight: 400;
     font-style: normal;
   }
-
+/* body */
+body{
+    max-width: 1440px;
+}
 
 /* SHEARED style */
+
+
 .display{
     display: flex;
 }
@@ -48,6 +53,17 @@ a{
     background-color: wheat;
     color: black;
 }
+
+/* custom font */
+
+.bold{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+
+
+
 /* Banner part id style */
 #Admission{
     color: rgba(93, 88, 239, 1);
@@ -121,9 +137,6 @@ a{
 
 
 /* nav */
-.nav{
-    /* border: 1px solid red; */
-}
 
 .btn-contact{
     padding: 1rem 1.5rem;
@@ -205,7 +218,7 @@ a{
 
 .our-stories{
     margin-top: 20px;
-    background-image: linear-gradient(to  top , rgba(245, 60, 60, 0.377), rgba(250, 166, 9, 0.329));
+    background-image: linear-gradient(to top, #ad8b50, #ffa283, #ffffff);
     padding: 1.6rem;
     background-image: url(../assets/bg.png), linear-gradient(to  top , rgba(245, 60, 60, 0.377), rgba(250, 166, 9, 0.329));;
 }
@@ -400,19 +413,19 @@ a{
     {
         display:none;
     }
-    .drop{
+    .drop, .display-r{
         display: block;
     }
     .header{
         display: flex;
         align-items: center;
-        justify-content:space-around;
+        justify-content:space-between;
         padding: 1rem;
     }
     .banner-container{
         flex-direction: column;
         padding: 1rem;
-        justify-content: center;
+        justify-content: space-between;
     }
     .banner-img >img{
         object-fit: cover;
